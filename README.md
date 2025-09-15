@@ -7,4 +7,6 @@ It includes different implementations like:
 
 🧩 Prompt engineering experiments
 
-⚡ Other AI/LLM mini-projects I explore
+1st. Implemented RAG(Retrieval Argumented Generation) : RAG is AI Framework used to provide external context to model and give response over that context. RAG is implemented in 6 stages: 1. Ingestion 2. Splitting 3. Embeddings 4. storing 5. retriving 6. generation
+
+2nd. Implemented LCEL(Langchain expression Language) : it help to create chain from a langchain feacture or components. Understand Runnables. It is something that can be chained means every components in langchain are not supports chaining so Runnable make them to support chain and make model more convinient.
