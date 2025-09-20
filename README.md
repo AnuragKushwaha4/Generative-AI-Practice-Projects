@@ -12,3 +12,5 @@ It includes different implementations like:
 2nd. Implemented LCEL(Langchain expression Language) : it help to create chain from a langchain feacture or components. Understand Runnables. It is something that can be chained means every components in langchain are not supports chaining so Runnable make them to support chain and make model more convinient.
 
 3rd Implemented Chatbot with message history actually via creating session for a single chat.
+
+4th Earlier i was Implemented a chatbot with message history now i implemented i miniproject deployed via streamlit to handling dynamic session management and handling message history.
