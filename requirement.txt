@@ -8,3 +8,4 @@ dotenv
 langchain-huggingface
 pypdf
 sentence-transformers
+streamlit 
