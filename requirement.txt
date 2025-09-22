@@ -9,3 +9,5 @@ langchain-huggingface
 pypdf
 sentence-transformers
 streamlit 
+arxiv
+wikipedia
