@@ -25,3 +25,5 @@ Agents:Agents are like smart decision makers that knows how to use tools and whe
 Now in my project i created a AI agent that can search for user Query for over different Platform like some information it will collect from Wikipedia some from Arxiv if user want something from specific info from any website i created a tool for it also user can ask their query after sharing website link.
 
 Mean my Agent helps user in finding info from wiki , arxivs , and From specific websites also.
+
+5th Initialize Database Manager AI Assistant.
