@@ -1,10 +1,16 @@
 import sqlite3 as sq
-
-connection = sq.connect("../../DBMS/schoolDB.db")
+from pathlib import Path
+print(Path(__file__).parent)
+connection = sq.connect(f"{Path(__file__).parent}/student.db")
 
 cursor = connection.cursor()
 
-cursor.execute("select * from teacher;")
+
+DATA = cursor.execute('''
+SELECT * FROM CLASS;
+''')
+
+print(DATA.fetchall())
 
 connection.commit()
 connection.close()
